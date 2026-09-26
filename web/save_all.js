@@ -72,10 +72,10 @@ app.registerExtension({
     { path: ["文件"], commands: ["Comfy.SaveAllWorkflows"] },
     { path: ["File"], commands: ["Comfy.SaveAllWorkflows"] },
   ],
-  // 可选快捷键：Ctrl+Shift+S（与默认的 Ctrl+S 保存单文件不冲突）
+  // 可选快捷键：Ctrl+Alt+S（与默认的 Ctrl+S 保存单文件不冲突）
   keybindings: [
     {
-      combo: { key: "s", ctrl: true, shift: true },
+      combo: { key: "s", ctrl: true, alt: true },
       commandId: "Comfy.SaveAllWorkflows",
     },
   ],
