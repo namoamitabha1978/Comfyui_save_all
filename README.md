@@ -6,7 +6,7 @@ ComfyUI-Save-All
 位置	入口	说明
 菜单栏	顶部 文件 / File → 保存所有	官方 `commands + menuCommands` API，稳定
 标签栏	工作流标签 右键菜单 → 保存所有	前端暂无官方钩子，采用轻量 DOM 注入（防御式，找不到即跳过）
-快捷键	Ctrl + Shift + S	可选，与默认 Ctrl+S 保存单文件不冲突
+快捷键	Ctrl + Alt + S	可选，与默认 Ctrl+S 保存单文件不冲突
 保存结果通过右上角 Toast 提示（成功 / 部分失败 / 无打开文件）。
 安装
 把整个 `comfyui_save_all` 文件夹复制到 ComfyUI 的 `custom_nodes/` 目录下：
